@@ -18,5 +18,6 @@
   },
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "gitHead": "aba2834f9dd1373e92dd44994a57b850fe878204"
 }

@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "/Users/anitacao/Projects/wolf3/yd/yd-libs"
+  },
+  "1 error pnpm": {
+    "reason": "bad indentation of a mapping entry",
+    "mark": {
+      "name": null,
+      "buffer": "packages: \n  'packages/**'\n\t# 排除test下所有的目录\n  '!**/test/**'\n",
+      "position": 45,
+      "line": 3,
+      "column": 2,
+      "snippet": " 1 | packages: \n 2 |   'packages/**'\n 3 | →# 排除test下所有的目录\n 4 |   '!**/test/**'\n-------^"
+    },
+    "message": "bad indentation of a mapping entry (4:3)\n\n 1 | packages: \n 2 |   'packages/**'\n 3 | →# 排除test下所有的目录\n 4 |   '!**/test/**'\n-------^",
+    "err": {
+      "name": "pnpm",
+      "message": "bad indentation of a mapping entry (4:3)\n\n 1 | packages: \n 2 |   'packages/**'\n 3 | →# 排除test下所有的目录\n 4 |   '!**/test/**'\n-------^",
+      "stack": "pnpm: bad indentation of a mapping entry (4:3)\n\n 1 | packages: \n 2 |   'packages/**'\n 3 | →# 排除test下所有的目录\n 4 |   '!**/test/**'\n-------^\n    at generateError (/Users/anitacao/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:17507:14)\n    at throwError (/Users/anitacao/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:17510:13)\n    at readBlockMapping (/Users/anitacao/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:18180:11)\n    at composeNode (/Users/anitacao/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:18358:82)\n    at readDocument (/Users/anitacao/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:18490:7)\n    at loadDocuments (/Users/anitacao/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:18532:9)\n    at Object.load (/Users/anitacao/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:18550:23)\n    at parse (/Users/anitacao/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:19290:32)\n    at /Users/anitacao/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:19291:81\n    at async requirePackagesManifest (/Users/anitacao/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:49180:16)"
+    }
+  }
+}

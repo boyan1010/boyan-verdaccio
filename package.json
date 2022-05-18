@@ -5,5 +5,9 @@
     "lerna": "^4.0.0"
   },
   "dependencies": {
+  }, 
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:boyan1010/boyan-verdaccio.git"
   }
 }

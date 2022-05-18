@@ -2,5 +2,8 @@
   "packages": [
     "packages/*"
   ],
-  "version": "independent"
+  "npmClient": "pnpm",
+  "version": "independent",
+  "useWorkspaces": true,
+  "ignoreChanges": ["**/node_modules/**", "**/__snapshots__/**"]
 }
